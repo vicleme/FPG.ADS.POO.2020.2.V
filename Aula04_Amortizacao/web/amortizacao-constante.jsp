@@ -58,7 +58,7 @@
                     <label for="nm" id="nml">Número de meses:</label>
                     <input id="nm" type="number" name="nm">
                     <label for="pt" id="ptl">Periodicidade da taxa:</label>
-                    <select id="pt" name="pt" style="width:182px; height: 30px">
+                    <select id="pt" name="pt">
                         <option value="1">Mensal</option>
                         <option value="2">Anual</option>
                     </select>
@@ -125,7 +125,7 @@
             <td align="right" style="padding-right:10px"><%=dinheiro.format(parc)%></td>
             <td align="right" style="padding-right:10px"><%=dinheiro.format(amort)%></td>
             <td align="right" style="padding-right:10px"><%=dinheiro.format(juros)%></td>
-            <td align="right" style="padding-right:10px"><%=salddev%></td>
+            <td align="right" style="padding-right:10px"><%=dinheiro.format(salddev)%></td>
         </tr>
         <%}%>
         <td style="padding-left:15px;padding-right:15px"><strong>Total</strong></td>

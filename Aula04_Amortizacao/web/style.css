@@ -36,6 +36,11 @@ div.calculadora-campos{
   margin-bottom:20px;
 }
 
+input, select {
+    width:182px; 
+    height: 30px;
+}
+
 th{
     padding-top:10px;
     padding-bottom:10px;

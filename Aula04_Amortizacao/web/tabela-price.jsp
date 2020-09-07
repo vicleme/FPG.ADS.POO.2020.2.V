@@ -58,7 +58,7 @@
                     <label for="nm" id="nml">Número de meses:</label>
                     <input id="nm" type="number" name="nm">
                     <label for="pt" id="ptl">Periodicidade da taxa:</label>
-                    <select id="pt" name="pt" style="width:182px; height: 30px">
+                    <select id="pt" name="pt">
                         <option value="1">Mensal</option>
                         <option value="2">Anual</option>
                     </select>
