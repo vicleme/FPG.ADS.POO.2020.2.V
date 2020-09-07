@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 de set de 2020, 16:25:22
+    Author     : Victor
+*/
+body {
+    font-family: Helvetica;
+}
+
+p {
+    font-size:11pt;
+}
+
+form.calculadora {
+  border:1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius:10px;
+  width:405px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.calculadora-campos{
+  display:flex;
+}
+
+.coluna {
+  padding:10px;
+}
+
+.coluna input, .coluna select {
+  margin-bottom:20px;
+}
+
+th{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#container{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto}

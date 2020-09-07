@@ -1,0 +1,8 @@
+
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <hr/>
+    <div align="center">Desenvolvido na disciplina de POO - <small>Prof. Ricardo Pupo Larguesa</small></div>
+    <div align="center" style="padding-bottom:15px"><small>Ewerton Luiz Lima de Souza, Sávio Gabriel Santos Gois e Victor Gabriel Leme da Silva</small></div>
+</div>
